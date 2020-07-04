@@ -1,10 +1,6 @@
 html {
   background-color: #fff;
-  background-image: -webkit-linear-gradient(
-    65deg,
-    #000 50%,
-    rgb(150, 150, 150) 50%
-  );
+  background-image: -webkit-linear-gradient(65deg, #000 50%, #fff 50%);
   min-height: 1000px;
   font-family: 'helvetica neue';
 }
@@ -19,6 +15,8 @@ h1 {
   margin: 50px auto;
   background: white;
   border-radius: 5px;
+  background-color: rgba(150, 150, 150, 0.5);
+
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
